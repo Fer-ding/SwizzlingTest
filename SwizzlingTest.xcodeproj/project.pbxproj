@@ -13,6 +13,8 @@
 		588971CB1E0271CE005E2C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588971C91E0271CE005E2C26 /* Main.storyboard */; };
 		588971CD1E0271CE005E2C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588971CC1E0271CE005E2C26 /* Assets.xcassets */; };
 		588971D01E0271CE005E2C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588971CE1E0271CE005E2C26 /* LaunchScreen.storyboard */; };
+		588971D91E0271F5005E2C26 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 588971D81E0271F5005E2C26 /* NSObject+Swizzling.m */; };
+		588971DC1E027314005E2C26 /* UIButton+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 588971DB1E027314005E2C26 /* UIButton+Swizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		588971CC1E0271CE005E2C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		588971CF1E0271CE005E2C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		588971D11E0271CE005E2C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		588971D71E0271F5005E2C26 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		588971D81E0271F5005E2C26 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		588971DA1E027314005E2C26 /* UIButton+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Swizzling.h"; sourceTree = "<group>"; };
+		588971DB1E027314005E2C26 /* UIButton+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Swizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 		588971BF1E0271CE005E2C26 /* SwizzlingTest */ = {
 			isa = PBXGroup;
 			children = (
+				588971D71E0271F5005E2C26 /* NSObject+Swizzling.h */,
+				588971D81E0271F5005E2C26 /* NSObject+Swizzling.m */,
+				588971DA1E027314005E2C26 /* UIButton+Swizzling.h */,
+				588971DB1E027314005E2C26 /* UIButton+Swizzling.m */,
 				588971C31E0271CE005E2C26 /* AppDelegate.h */,
 				588971C41E0271CE005E2C26 /* AppDelegate.m */,
 				588971C61E0271CE005E2C26 /* ViewController.h */,
@@ -151,9 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588971DC1E027314005E2C26 /* UIButton+Swizzling.m in Sources */,
 				588971C81E0271CE005E2C26 /* ViewController.m in Sources */,
 				588971C51E0271CE005E2C26 /* AppDelegate.m in Sources */,
 				588971C21E0271CE005E2C26 /* main.m in Sources */,
+				588971D91E0271F5005E2C26 /* NSObject+Swizzling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
